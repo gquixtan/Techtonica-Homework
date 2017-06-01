@@ -4,8 +4,11 @@ body {
 h1 {
 	font-size: 35px;
 	font-family: sans-serif;
-	/*position: center;
-	margin: auto 500px;
-	padding-top: 10px;
-    padding-bottom: 20px;*/
+}
+.jumbotron {
+	background-color: rgb(250, 212, 243);
+}
+
+.navbar {
+	background-color: rgb(254, 222, 237);
 }
