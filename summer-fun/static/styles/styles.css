@@ -1,14 +1,30 @@
 body {
 	background-color: pink;
+	font-family: Monospace;
 }
+.display-3 {
+	font-family: sans-serif;
+}
+
 h1 {
 	font-size: 35px;
-	font-family: sans-serif;
+
 }
 .jumbotron {
 	background-color: rgb(250, 212, 243);
-}
+	background-image: url("pattern.png");
 
+}
+.form-control {
+	background-color: pink;
+}
 .navbar {
 	background-color: rgb(254, 222, 237);
+	color: black;
+}
+.btn {
+	background-color: pink;
+}
+.btn:hover {
+	background-color:rgb(250, 212, 243);
 }
