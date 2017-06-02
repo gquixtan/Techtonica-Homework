@@ -1,30 +1,38 @@
 body {
-	background-color: pink;
+	background-color: rgb(254, 222, 237);
+	/*background-image: url("../images/floral-leaves.jpg");*/
+    /*background-repeat: no-repeat;*/
 	font-family: Monospace;
 }
+
 .display-3 {
 	font-family: sans-serif;
 }
 
 h1 {
 	font-size: 35px;
-
 }
+h2 {
+	position: absolute;
+}
+
 .jumbotron {
 	background-color: rgb(250, 212, 243);
-	background-image: url("pattern.png");
+	background-image: url("../images/yellow-and-blue-flowers.jpg");
+}
 
-}
 .form-control {
-	background-color: pink;
+	background-color: rgb(254, 222, 237)
 }
+
 .navbar {
-	background-color: rgb(254, 222, 237);
-	color: black;
+	background-color: white;
 }
+
 .btn {
 	background-color: pink;
 }
+
 .btn:hover {
-	background-color:rgb(250, 212, 243);
+	background-image: url("../images/yellow-and-blue-flowers.jpg")
 }
