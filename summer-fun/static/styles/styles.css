@@ -1,7 +1,5 @@
 body {
 	background-color: rgb(254, 222, 237);
-	/*background-image: url("../images/floral-leaves.jpg");*/
-    /*background-repeat: no-repeat;*/
 	font-family: Monospace;
 }
 
@@ -38,3 +36,47 @@ h2 {
 .btn:hover {
 	background-image: url("../images/yellow-and-blue-flowers.jpg")
 }
+
+.first {
+	height: 15%; 
+	width: 18%;
+	border: black 2px solid;
+	margin: 10px;
+	padding: 20px;
+}
+.second {
+	height: 100%; 
+	width: 70%;
+	border: black 2px solid;
+	margin: 10px;
+	padding: 20px;
+}
+.third {
+	height: 15%; 
+	width: 20%;
+	border: black 2px solid;
+	margin: 10px;
+	padding: 20px;
+}
+.fourth {
+	height: 15%; 
+	width: 20%;
+	border: black 2px solid;
+	margin: 10px;
+	padding: 20px;
+}
+.fith {
+	height: 15%; 
+	width: 20%;
+	border: black 2px solid;
+	margin: 10px;
+	padding: 20px;
+}
+.sixth {
+	height: 15%; 
+	width: 20%;
+	border: black 2px solid;
+	margin: 10px;
+	padding: 20px;
+}
+
