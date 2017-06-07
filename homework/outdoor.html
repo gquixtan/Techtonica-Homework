@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Outdoor Fun</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+	// myMovies is an empty array.
+	var myMovies = [ ];
+
+	// This prints myMovies which is empty.
+	console.log("Starting array: " + myMovies);
+
+	// this add(push) to the end of myMovies.
+	myMovies.push("Moonlight");
+
+	// This prints myMovies after push.
+	console.log("Array after 1st push: " + myMovies);
+
+	// The next line adds la la land to the front of myMovies.
+	myMovies.unshift("La la land");
+
+	// This will print all the items in myMovies
+	console.log("Array after unshift: " + myMovies);
+
+	// this function has veg as a perameter 
+	function eatVeggies(veg) {
+
+		// this print everytime eatVeggies gets called. 
+	  console.log("I ate the " + veg + ".");
+	}
+	// The end of my eatVeggies function. 
+
+	// This calls and passes the string yams  to the eatVeggies function ONLY this one time.
+	 eatVeggies("yams");
+
+	 // new function and holds 2 parameters with the name of a dog and destination.  
+	 function walkDog(dogName, destination) {
+	 	console.log("I am walking " + dogName);
+	 	console.log("We are going to " + destination);
+	 	console.log("I am walking " + dogName + " to " + destination + ".");
+
+	 }
+	 // End of the walkDog function.
+
+
+	 // This call the walkDog function and passes 2 arguments.
+
+	 walkDog("Penut","China");
+
+
+
+	</script>
+
+</body>
+</html>
+
