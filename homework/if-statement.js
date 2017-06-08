@@ -15,4 +15,3 @@ function whichGradeToBeOrNotToBe(age) {
 }
 
 whichGradeToBeOrNotToBe(4);
-whichGradeToBeOrNotToBe(19);
