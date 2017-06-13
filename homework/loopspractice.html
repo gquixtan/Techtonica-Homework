@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<title>Loops Practice</title>
+	<head>
+		
+	</head>
+ 
+	<body>
+	<script type="text/javascript">
+		
+	    // FOR LOOP - KEYWORD METHOD
+ 
+	    var classmates = ["M.B.", "N.", "C.", "T.", "D.", "G."];  // Add in the names of your classmates. eg: ["Jane", "John", "Kate"]
+ 
+	    // For each of your classmates, print "<classmate name> works really hard!" Use the keyword method.
+ 
+ 		for (var name of classmates) {
+  			console.log(name + " works really hard!");
+	    }
+ 
+ 
+	    // FOR LOOP - INCREMENTING VARIABLE METHOD
+ 
+	    var pets = ["Jack", "indica", "Nemo", "Pig"];  // Add in the names of your or your friends' pets. eg: ["PJ", "Charlie"]
+ 
+	    // For each of the pets you know, print "<pet name> is so cute!" Use the incrementing variable method.
+ 		for (var i=0; i < pets.length; i++) {
+ 			console.log(pets[i] + " is so cute!!");
+ 		}
+ 
+ 
+	    // NESTED FOR LOOP
+ 
+	    // in this array, each sub-array contains the meal name and the number of times you ate it this month
+	    // eg: var myFaveMeals = [ ["mom's spaghetti", 1], ["BBQ sausages", 2], ["pupusas", 3] ];
+ 
+	    var myFaveMeals = [["Green smoothie",2], ["BBQ Ribs", 4],["Fried Chicken", 6]]; 
+		// outer for loop - contols iteration through outermost array
+		for (var meal of myFaveMeals) {
+ 
+			// inner loop - controls iteration through innermost arrays
+  			for (var i = 0; i < meal.length; i++) {
+				// else if it's a number, do something different
+	  			if (i < 1) {
+				console.log("Number of times I ate " + meal[i] + " this month: " + meal[i + 1] + ".");
+				}
+ 
+				
+			}
+ 
+		}
+ 
+		// Using the method of your choice (either keyword or incrementing variable, as above),
+		// write a nested for loop that prints: "Number of times I ate <meal name> this month: <number>."
+ 
+ 
+ 
+	</script>
+ 
+	</body>
+</html>
