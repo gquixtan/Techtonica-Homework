@@ -1,0 +1,40 @@
+.wrap {
+  background-color: rgb(187, 164, 164);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Times New Roman";
+}
+h5 {
+  text-align: center;
+  font-family: Arial;
+  padding-bottom: 10px;
+}
+.container {
+  background-color: rgba(70, 17, 85, 84);
+  padding: 20px;
+ 
+}
+hr {
+  height: 2px;
+  background-color: rgb(217, 84, 79);
+}
+.info {
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+p {
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Times New Roman";
+}
+footer {
+  background-color: rgb(187, 164, 164);
+      padding-top: 10px;
+}
