@@ -36,5 +36,8 @@ p {
 }
 footer {
   background-color: rgb(187, 164, 164);
-      padding-top: 10px;
+  padding-top: 10px;
+}
+ul {
+  font-size: 2rem;
 }
