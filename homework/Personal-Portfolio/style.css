@@ -1,0 +1,40 @@
+.wrap {
+   background-image: url("img/floral-leaves.jpg");
+}
+.container {
+	background-color: rgb(49, 112, 140);
+	margin-top: 10%;
+}
+.container .navbar{
+	background-color: white;
+}
+
+.gabby {
+	margin: 5% 5%;
+	position: relative;
+	float: right;
+	border-radius: 50%;
+	width: 32%;
+	height: 32%;
+	border: solid gray 5px;
+}
+#techtonica {
+  border-radius: 0px;
+  width: 5%;
+  height: 5%;
+}
+.profile {
+  border-radius: 85px 17px;
+  border: solid black 6px;
+}
+.content {
+	margin: 5% 5%;
+}
+.navbar-brand{
+	color: white;
+	text-decoration: bold; 
+	font-size: 10rem:;
+	padding: 5px 5px;
+
+	
+}
